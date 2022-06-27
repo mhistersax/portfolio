@@ -66,7 +66,7 @@ html{
    font-family: 'potta one';
    text-transform: uppercase;
    margin-top: 80px;
-   margin-left: 55px; 
+   margin-left: 175px; 
    font-size: 40px;
 }
 .sec .skills ul li{
@@ -81,7 +81,7 @@ html{
    justify-content: space-evenly;
    margin-top: 30px;
    text-transform: capitalize;
-   margin-left: 30px;
+   margin-left: 180px;
    position: relative;
 }
 
@@ -90,7 +90,7 @@ html{
    height: 20px;
    width: 450px;
    margin-top: -32px;
-   margin-left: 435px;
+   margin-left: 305px;
    border-radius: 20px;
 }
 .sec .skills .bar2{
@@ -98,7 +98,7 @@ html{
    height: 20px;
    width: 250px;
    margin-top: -26px;
-   margin-left: 435px;
+   margin-left: 335px;
    border-radius: 20px;
 }
 .sec .skills .bar3{
@@ -106,7 +106,7 @@ html{
    height: 20px;
    width: 350px;
    margin-top: -26px;
-   margin-left: 535px;
+   margin-left: 405px;
    border-radius: 20px;
 }
 .sec .skills .bar4{
@@ -114,8 +114,15 @@ html{
    height: 20px;
    width: 250px;
    margin-top: -26px;
-   margin-left: 465px;
+   margin-left: 365px;
    border-radius: 20px;
+}
+.third{
+   margin-top: 1090px;
+    position: absolute;
+   width: 1348px;
+   height: 500px;
+   background: linear-gradient(to top, #dd2476, #2f5fff);
 }
 @media (min-width: 213px) and (max-width:425px){
    nav{
@@ -148,10 +155,15 @@ html{
    .first-body strong{
       font-size: 30px;
    }
+   .sec{
+      height: 600px;
+   }
    .sec .skills .title{
+      margin-left: 10px;
      font-size: 30px;
    }
    .sec .skills ul li{
+      margin-left: 15px;
       font-size: 20px;
       position: relative;
       justify-content: space-evenly;
@@ -162,7 +174,7 @@ html{
    position: relative;
    background:linear-gradient( to left, #2ff1ff, #dd247773) ;
    height: 20px;
-   width: 285px;
+   width: 185px;
    margin-top: -25px;
    margin-left: 93px;
    }
@@ -170,7 +182,7 @@ html{
    position: relative;
    background:linear-gradient( to left, #2ff1ff, #dd247773) ;
    height: 20px;
-   width: 255px;
+   width: 155px;
    margin-top: -25px;
    margin-left: 93px;
    }
@@ -178,7 +190,7 @@ html{
       position: relative;
       background:linear-gradient( to left, #2ff1ff, #dd247773) ;
       height: 20px;
-      width: 205px;
+      width: 105px;
       margin-top: -25px;
       margin-left: 143px;
    }
@@ -186,7 +198,7 @@ html{
       position: relative;
       background:linear-gradient( to left, #2ff1ff, #dd247773) ;
       height: 20px;
-      width: 255px;
+      width: 155px;
       margin-top: -20px;
       margin-left: 103px;
    }
